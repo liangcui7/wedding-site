@@ -59,7 +59,7 @@
           <h1 class="heading-3">please rsvp before april 30, 2020</h1>
         </div>
         <div class="column-4 w-col w-col-6 w-col-small-6">
-          <div class="form-block w-form">
+          <div>
             <form class="form-font">
               <input type="text" class="text-field full-name w-input" maxlength="256" name="name" data-name="Name"
                 placeholder="full name" id="name" required="" />
@@ -75,7 +75,7 @@
                 <input type="radio" data-name="RSVP Response" id="Not Going" name="RSVP-Response" value="Not Going"
                   class="w-form-formradioinput radio-button-2 w-radio-input" /><span for="Not Going"
                   class="radio-button-label-2 w-form-label">not going</span></label>
-              <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button" />
+              <button onclick="subtmitFirebase()" type="button">Submit</button>
             </form>
             <div class="success-message phone-landscape w-form-done">
               <img src="images/Green-Checkmark.png" width="107" srcset="
@@ -126,28 +126,15 @@
 
   <!-- FIREBASE ------------------------>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+  <script src="/__/firebase/7.9.1/firebase-app.js"></script>
 
   <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+  <script src="/__/firebase/7.9.1/firebase-analytics.js"></script>
 
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "AIzaSyAZvsn8Og9aTCMbW4gp14hG1HfurofeOWo",
-      authDomain: "wedding-site-b3932.firebaseapp.com",
-      databaseURL: "https://wedding-site-b3932.firebaseio.com",
-      projectId: "wedding-site-b3932",
-      storageBucket: "wedding-site-b3932.appspot.com",
-      messagingSenderId: "909211613656",
-      appId: "1:909211613656:web:faca26bea87f7218595aad",
-      measurementId: "G-DG6S96D4FF"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-  </script>
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+
 </body>
 
 </html>
