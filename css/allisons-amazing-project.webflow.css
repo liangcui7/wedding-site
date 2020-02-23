@@ -87,7 +87,7 @@ a {
 }
 
 .link-block-2 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .link-block-2.w--current {
@@ -99,12 +99,12 @@ a {
 
 .link-block-3 {
   background-color: #fff;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .link-block-4 {
   background-color: #fff;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .container-3 {
@@ -114,27 +114,39 @@ a {
 
 .container-3.menu-page {
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(130, 150, 196, 0.47)), to(rgba(130, 150, 196, 0.47))), url('../images/Rectangle-2.png');
-  background-image: linear-gradient(180deg, rgba(130, 150, 196, 0.47), rgba(130, 150, 196, 0.47)), url('../images/Rectangle-2.png');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(130, 150, 196, 0.47)),
+      to(rgba(130, 150, 196, 0.47))
+    ),
+    url("../images/Rectangle-2.png");
+  background-image: linear-gradient(
+      180deg,
+      rgba(130, 150, 196, 0.47),
+      rgba(130, 150, 196, 0.47)
+    ),
+    url("../images/Rectangle-2.png");
   background-position: 0px 0px, 100% 0%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
 }
 
 .container-3.home-page {
-  background-image: url('../images/IMG_20181213_181751_515-1.png');
+  background-image: url("../images/IMG_20181213_181751_515-1.png");
   background-position: 50% 0%;
   background-size: cover;
 }
 
 .container-3.guestbook {
-  background-image: url('../images/Rectangle-1.png');
+  background-image: url("../images/Rectangle-1.png");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .container-3.rsvp-form {
-  background-image: url('../images/image-3-2.png');
+  background-image: url("../images/image-3-2.png");
   background-position: 100% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,7 +171,7 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-size: 40px;
   font-weight: 400;
@@ -191,7 +203,7 @@ a {
   margin-top: 37px;
   padding-top: 121px;
   padding-bottom: 28px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
   font-size: 75px;
   font-weight: 400;
@@ -205,7 +217,7 @@ a {
   padding-bottom: 15px;
   border: 1px solid #000;
   background-color: hsla(0, 0%, 100%, 0.22);
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
   font-size: 20px;
   font-weight: 400;
@@ -236,7 +248,7 @@ a {
 
 .section-2 {
   height: 975px;
-  background-image: url('../images/Rectangle.png');
+  background-image: url("../images/Rectangle.png");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -261,19 +273,19 @@ a {
 }
 
 .nav-link {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
   font-weight: 400;
 }
 
 .nav-link-2 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
 }
 
 .nav-link-3 {
   margin-right: 0px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
 }
 
@@ -373,7 +385,7 @@ a {
   padding-bottom: 25px;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-size: 18px;
   line-height: 30px;
@@ -458,7 +470,7 @@ a {
 }
 
 .text-link {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-size: 23px;
   line-height: 23px;
@@ -498,7 +510,7 @@ a {
 .description {
   padding-top: 27px;
   padding-bottom: 50px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -577,16 +589,16 @@ a {
   border-width: 1px;
   border-color: #a0a0a0;
   background-color: #fff;
-  background-image: url('../images/arrow.png');
+  background-image: url("../images/arrow.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
 }
 
 .container-5 {
-  background-image: url('../images/image-2-1.png');
+  background-image: url("../images/image-2-1.png");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -610,13 +622,13 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-size: 20px;
 }
 
 .section-header {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 28px;
   font-weight: 400;
   text-align: center;
@@ -667,20 +679,20 @@ a {
 .schedule-block.second-event {
   margin-bottom: 17px;
   background-color: #d8f9f5;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #4c7c7b;
 }
 
 .schedule-block.first-event {
   margin-bottom: 17px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #c03a46;
 }
 
 .schedule-block.third-event {
   margin-bottom: 17px;
   background-color: #eeeaff;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #6c609f;
 }
 
@@ -693,13 +705,13 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 0px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 19px;
   text-align: left;
 }
 
 .event-name {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 20px;
 }
 
@@ -710,7 +722,7 @@ a {
   padding: 15px 20px;
   border: 1px solid #fff;
   background-color: hsla(0, 0%, 100%, 0.18);
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -718,7 +730,7 @@ a {
 
 .text-block {
   margin-top: -31px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .text-block.event-time {
@@ -729,11 +741,11 @@ a {
 }
 
 .text-block-2 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .text-block-3 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .event-notes.text-block {
@@ -824,7 +836,7 @@ a {
 }
 
 .month {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #9b9b9b;
   font-size: 20px;
   text-align: right;
@@ -837,7 +849,7 @@ a {
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 50px;
-  background-image: url('../images/Rectangle-3.png');
+  background-image: url("../images/Rectangle-3.png");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -848,7 +860,7 @@ a {
 
 .general-notes {
   padding: 60px 10px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 20px;
   text-align: left;
 }
@@ -860,7 +872,7 @@ a {
 
 .home-heading {
   margin-top: 90px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -921,7 +933,7 @@ a {
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-weight: 400;
 }
@@ -966,7 +978,7 @@ a {
   margin-right: 0px;
   margin-bottom: 20px;
   padding-right: 0px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
   font-size: 15px;
   line-height: 30px;
@@ -978,7 +990,7 @@ a {
   margin: 46px 0px 0px;
   padding-right: 0px;
   padding-left: 0px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
   font-size: 35px;
   line-height: 40px;
@@ -1110,7 +1122,7 @@ a {
   border-style: solid;
   border-width: 0px;
   border-color: #4ab15a;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 18px;
 }
 
@@ -1121,7 +1133,7 @@ a {
   padding-left: 40px;
   border: 1px solid transparent;
   background-color: transparent;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   text-align: center;
 }
@@ -1133,7 +1145,7 @@ a {
 }
 
 .text-block-13 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
 }
 
@@ -1233,7 +1245,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
 }
 
@@ -1279,7 +1291,7 @@ a {
 }
 
 .text-block-15 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -1287,7 +1299,7 @@ a {
 
 .menu-heading {
   margin-bottom: 40px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #fff;
   font-size: 35px;
   font-weight: 400;
@@ -1339,12 +1351,12 @@ a {
 
 .food-description {
   margin-bottom: 30px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 .food-option {
   margin-bottom: 40px;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -1364,7 +1376,7 @@ a {
 }
 
 .nav-link-4 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   color: #000;
 }
 
@@ -1394,7 +1406,7 @@ a {
 }
 
 .slide-1 {
-  background-image: url('../images/IMG_20181213_181751_515-1.png');
+  background-image: url("../images/IMG_20181213_181751_515-1.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1405,21 +1417,21 @@ a {
 }
 
 .slide-2 {
-  background-image: url('../images/image-3-2.png');
+  background-image: url("../images/image-3-2.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .image-6 {
-  background-image: url('../images/Burlington-e1404829604777-1.png');
+  background-image: url("../images/Burlington-e1404829604777-1.png");
   background-position: 0px 0px;
   background-size: 125px;
   background-repeat: no-repeat;
 }
 
 .lightbox-link {
-  background-image: url('../images/image-3-2.png');
+  background-image: url("../images/image-3-2.png");
   background-position: 0px 0px;
   background-size: 125px;
   background-repeat: no-repeat;
@@ -1596,7 +1608,7 @@ a {
 @media screen and (max-width: 767px) {
   .container-3 {
     height: 520px;
-    background-image: url('../images/DSC05901.JPG');
+    background-image: url("../images/DSC05901.JPG");
     background-position: 100% 0%;
     background-size: cover;
   }
@@ -2295,4 +2307,3 @@ a {
     justify-self: center;
   }
 }
-
